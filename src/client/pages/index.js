@@ -10,8 +10,6 @@ export default class Index extends React.Component {
   };
 
   render() {
-    console.log('index is render');
-
     return <h1 onClick={this.handleClick}>click</h1>
   }
 }
